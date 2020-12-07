@@ -1,0 +1,57 @@
+{
+	"name": "navindex/modelx",
+	"description": "Extended model functionality for CodeIgniter 4.",
+	"keywords": [
+		"codeigniter",
+		"model",
+		"entity"
+	],
+	"homepage": "https://github.com/navindex/ci4-modelx",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Miklos Karpati",
+			"email": "mk@navindex.com.au",
+			"homepage": "https://navindex.com.au",
+			"role": "Developer"
+		}
+	],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/codeigniter4/CodeIgniter4"
+		}
+	],
+	"require": {
+		"php": ">=7.2"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require-dev": {
+		"codeigniter4/codeigniter4": "dev-develop",
+		"phpunit/phpunit": "^8.5",
+		"phpstan/phpstan": "^0.12",
+		"fzaninotto/faker": "^1.9@dev",
+		"mockery/mockery": "^1.0",
+		"squizlabs/php_codesniffer": "^3.5",
+		"codeigniter4/codeigniter4-standard": "^1.0"
+	},
+	"autoload": {
+		"psr-4": {
+			"Navindex\\ModelX\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Tests\\Support\\": "tests/_support"
+		}
+	},
+	"scripts": {
+		"analyze": "phpstan analyze",
+		"style": "phpcbf --standard=./vendor/codeigniter4/codeigniter4-standard/CodeIgniter4 src/ tests/",
+		"test": "phpunit",
+		"post-update-cmd": [
+			"composer dump-autoload"
+		]
+	}
+}
