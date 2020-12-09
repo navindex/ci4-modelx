@@ -15,8 +15,9 @@ Model extension for CodeIgniter 4.
 
 **Model** and **Entity** support for
 
-- Unique keys
-- Composite primary and unique keys (a combination of 2 or more fields)
+- Alternate keys (unique keys)
+- Composite primary and alternate keys (a combination of 2 or more fields)
+- Auto increment field for composite primary key
 - Junction (associative) tables repesenting many-to-many relationships
 - Database views
 - Encrypted fields

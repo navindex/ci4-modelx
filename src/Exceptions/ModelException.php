@@ -1,6 +1,6 @@
 <?php
 
-namespace Navindex\ModelX;
+namespace Navindex\ModelX\Exceptions;
 
 use CodeIgniter\Exceptions\ModelException as BaseException;
 
