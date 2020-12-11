@@ -27,7 +27,7 @@ Model extension for CodeIgniter 4.
 Installation is best done via Composer. Assuming Composer is installed globally, you may use the following command:
 
 ```bash
-    > composer require navindex/model
+    > composer require navindex/modelx
 ```
 
 This will add the latest stable release of **Navindex:ModelX** as a module to your project. Note that you may need to adjust your project's [minimum stability](http://webtips.krajee.com/setting-composer-minimum-stability-application/) in order to use **Navindex:ModelX** while it is in beta.
@@ -51,8 +51,8 @@ Once installed the only thing you need is to create the new Models and Entities 
 
 ## 5. Overview
 
-## 12. Customization
+## 6. Customization
 
-## 12. Credits
+## 7. Credits
 
 Thanks to [EllisLab](https://ellislab.com) for originally creating CodeIgniter and the [British Columbia Institute of Technology](https://bcit.ca/) for continuing the project. Thanks to all the developers and contibutors working on [CodeIgniter 4](https://github.com/bcit-ci/CodeIgniter4).
